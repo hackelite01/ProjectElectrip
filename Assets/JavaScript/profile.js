@@ -28,4 +28,4 @@ auth.operations.then(() => {
 
 // Randomly choosing a background image
 const imgNo = getRandItem([0, 1, 2, 3, 4, 5, 6])
-document.querySelector(".top-container").style.backgroundImage = `url("./Assets/Images/backgrounds/profile/${imgNo}.webp")`
+document.querySelector(".top-container").style.backgroundImage = `url("../Assets/Images/backgrounds/profile/${imgNo}.webp")`
